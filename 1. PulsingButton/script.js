@@ -10,9 +10,9 @@ const btnAnimation = e => {
     circle.style.left = insideBtnLeft + 'px';
 
     e.target.appendChild(circle);
-    setTimeout(()=>{
+    setTimeout(() => {
         circle.remove();
-    },300);
+    }, 300);
 }
 
 btn.addEventListener('click', btnAnimation);
