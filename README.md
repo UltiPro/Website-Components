@@ -6,7 +6,7 @@
 
 ### 1
 
-![](1.gif)
+![](PulsingButton.gif)
 
 ### 2
 
