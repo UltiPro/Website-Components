@@ -1,0 +1,26 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-family: sans-serif;
+	background-color: #333;
+	min-height: 100vh;
+}
+
+.image-box {
+	width: 800px;
+	height: 800px;
+	overflow: hidden;
+}
+
+.zoom-img {
+	cursor: zoom-in;
+	transform: scale(2);
+}
