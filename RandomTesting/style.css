@@ -125,3 +125,32 @@ a:active {
 a:hover {
     color: green;
 }
+
+input:invalid{
+    background-color: red;
+}
+
+input:valid{
+    background-color: green;
+}
+
+.apperance{
+    appearance: auto;
+}
+
+.apperance-none{
+    appearance: none;
+}
+
+/* tylko przykład */
+
+@supports (display: flex) {
+    .flex-container > * {
+        text-shadow: 0 0 2px blue;
+        float: none;
+    }
+
+    .flex-container {
+        display: flex;
+    }
+}
