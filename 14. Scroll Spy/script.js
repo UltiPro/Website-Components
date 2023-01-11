@@ -12,7 +12,7 @@ const handleScrollSpy = () => {
 				activeSection.classList.add('active');
 			}
 
-			if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 200) {
+			if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 150) {
 				const lastSection = document.querySelector('a:last-of-type');
 				menuItems.forEach(item => item.classList.remove('active'));
 				lastSection.classList.add('active');

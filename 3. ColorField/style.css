@@ -65,17 +65,18 @@ h2 {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 800px;
+    width: 1000px;
 }
 
 .square {
     margin: 3px;
     height: 32px;
     width: 32px;
-    border: 1px solid black;
+    border: 2px solid white;
     border-radius: 6px;
     transition-property: background-color;
     transition-duration: 3s;
+    margin: 7px;
 }
 
 .square:hover{

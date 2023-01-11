@@ -1,6 +1,6 @@
 const text = document.querySelector(".text");
 
-const inputValue = "Witamy na stronie !!!";
+const inputValue = "Hello World!";
 const speed = 80;
 
 let index = 1;
