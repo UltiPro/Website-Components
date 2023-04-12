@@ -1,6 +1,6 @@
-# HTML-CSS-JS-Little-Projects
+# Website Components
 
-### Little Projects with using HTML, CSS and JS.
+### Website Components with using HTML, CSS and JS.
 
 Projects inspired by my own work and the work of others.
 
