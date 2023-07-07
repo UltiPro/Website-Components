@@ -1,6 +1,6 @@
 # Website Components
 
-Website Components created by Patryk 'UltiPro' Wójtowicz using JavaScript, CSS and HTML.
+Website Components created by Patryk 'UltiPro' Wójtowicz using JavaScript, HTML and CSS.
 
 Simple components.
 
