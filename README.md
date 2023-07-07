@@ -2,7 +2,9 @@
 
 Website Components created by Patryk 'UltiPro' Wójtowicz using JavaScript, CSS and HTML.
 
-Simple components implemented from Mateusz Maj's course.
+Simple components.
+
+> Components implemented from Mateusz Maj's course.
 
 # Preview
 
