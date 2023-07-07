@@ -8,62 +8,62 @@ Simple components.
 
 # Preview
 
-### 1
+### Accordion
 
-![1 preview gif](screenshots/1.gif)
+![Accordion preview gif](screenshots/Accordion.gif)
 
-### 2
+### Animated Text
 
-![2 preview gif](screenshots/2.gif)
+![Animated Text preview gif](screenshots/Animated Text.gif)
 
-### 3
+### Color Field
 
-![3 preview gif](screenshots/3.gif)
+![Color Field preview gif](screenshots/Color Field.gif)
 
-### 4
+### Cookie Alert
 
-![4 preview gif](screenshots/4.gif)
+![Cookie Alert preview gif](screenshots/Cookie Alert.gif)
 
-### 5
+### Draggable Items
 
-![5 preview gif](screenshots/5.gif)
+![Draggable Items preview gif](screenshots/Draggable Items.gif)
 
-### 6
+### Form Progress Bar
 
-![6 preview gif](screenshots/6.gif)
+![Form Progress Bar preview gif](screenshots/Form Progress Bar.gif)
 
-### 7
+### Navbar With Search Animation
 
-![7 preview gif](screenshots/7.gif)
+![Navbar With Search Animation preview gif](screenshots/Navbar With Search Animation.gif)
 
-### 8
+### Pulsing Button
 
-![8 preview gif](screenshots/8.gif)
+![Pulsing Button preview gif](screenshots/Pulsing Button.gif)
 
-### 9
+### Scrollbar
 
-![9 preview gif](screenshots/9.gif)
+![Scrollbar preview gif](screenshots/Scrollbar.gif)
 
-### 10
+### Scrollspy
 
-![10 preview gif](screenshots/10.gif)
+![Scrollspy preview gif](screenshots/Scrollspy.gif)
 
-### 11
+### Slider
 
-![11 preview gif](screenshots/11.png)
+![Slider preview gif](screenshots/Slider.gif)
 
-### 12
+### Timeline
 
-![12 preview gif](screenshots/12.gif)
+![Timeline preview gif](screenshots/Timeline.png)
 
-### 13
+### Unfolding Slider
 
-![13 preview gif](screenshots/13.gif)
+![Unfolding Slider preview gif](screenshots/Unfolding Slider.gif)
 
-### 14
+### Website Counters
 
-![14 preview gif](screenshots/14.gif)
+![Website Counters preview gif](screenshots/Website Counters.gif)
 
-### 15
+### Zoom Images
 
-![15 preview gif](screenshots/15.gif)
+![Zoom Images preview gif](screenshots/Zoom Images.gif)
