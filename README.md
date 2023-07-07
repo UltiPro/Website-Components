@@ -14,7 +14,7 @@ Simple components.
 
 ### Animated Text
 
-![Animated Text preview gif](screenshots/Animated Text.gif)
+![Animated Text preview gif](screenshots/"Animated Text".gif)
 
 ### Color Field
 
