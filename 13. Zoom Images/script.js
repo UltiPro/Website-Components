@@ -11,7 +11,7 @@ const zoomImg = e => {
 	img.classList.add('zoom-img');
 }
 
-const resetImg = () =>{
+const resetImg = () => {
 	img.classList.remove('zoom-img');
 }
 

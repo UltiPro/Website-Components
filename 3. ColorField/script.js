@@ -5,7 +5,7 @@ let sliderValue = 70;
 let range = 360;
 
 const createSquares = () => {
-    for (let i = 0; i < squares ; i++) {
+    for (let i = 0; i < squares; i++) {
         const square = document.createElement('div');
 
         square.classList.add('square');
@@ -25,10 +25,10 @@ const createSquares = () => {
 const setColor = square => {
     let h;
 
-    if(range === 360){
+    if (range === 360) {
         h = Math.floor(Math.random() * 360);
     }
-    else{
+    else {
         h = Math.floor(Math.random() * 60) + range;
     }
 

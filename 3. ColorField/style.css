@@ -60,7 +60,7 @@ h2 {
     width: 400px;
 }
 
-.box{
+.box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -79,6 +79,6 @@ h2 {
     margin: 7px;
 }
 
-.square:hover{
+.square:hover {
     transition-duration: 0s !important;
 }

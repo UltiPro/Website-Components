@@ -5,7 +5,7 @@ function showCard() {
 	cards.forEach(card => {
 		card.classList.remove('active');
 	});
-    this.classList.add('active');
+	this.classList.add('active');
 	handleBgColor(this);
 }
 

@@ -26,6 +26,6 @@ const clickOutsideAccordion = e => {
     closeAccordionItem();
 }
 
-accordionBtns.forEach(btn => btn.addEventListener('click', openAccordionItems))
+accordionBtns.forEach(btn => btn.addEventListener('click', openAccordionItems));
 
-window.addEventListener('click', clickOutsideAccordion)
+window.addEventListener('click', clickOutsideAccordion);

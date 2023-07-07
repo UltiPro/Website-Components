@@ -9,7 +9,7 @@ let timeout;
 const WriteAnimation = () => {
 	text.innerHTML = inputValue.slice(0, index);
 	index++;
-	if(index > inputValue.length) return;
+	if (index > inputValue.length) return;
 	timeout = setTimeout(WriteAnimation, speed);
 }
 
