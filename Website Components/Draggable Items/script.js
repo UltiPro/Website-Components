@@ -19,6 +19,7 @@ boxes.forEach(box => {
 		e.preventDefault();
 
 		const isDragged = document.querySelector('.is-dragged');
+
 		box.appendChild(isDragged);
 
 		handlePresents();

@@ -9,9 +9,7 @@ let currentStep = 1;
 const handleNextBtn = () => {
     currentStep++;
 
-    if (currentStep > steps.length) {
-        currentStep = steps.length;
-    }
+    if (currentStep > steps.length) currentStep = steps.length;
 
     handleProgressBar();
 }
@@ -19,20 +17,15 @@ const handleNextBtn = () => {
 const handlePrevBtn = () => {
     currentStep--;
 
-    if (currentStep < 1) {
-        currentStep = 1;
-    }
+    if (currentStep < 1) currentStep = 1;
 
     handleProgressBar();
 }
 
 const handleProgressBar = () => {
     steps.forEach((step, index) => {
-        if (index < currentStep) {
-            step.classList.add('active-step');
-        } else {
-            step.classList.remove('active-step');
-        }
+        if (index < currentStep) step.classList.add('active-step');
+        else step.classList.remove('active-step');
     })
 
     const activeSteps = document.querySelectorAll('.active-step');
@@ -44,11 +37,9 @@ const handleProgressBar = () => {
 }
 
 const handleButtons = () => {
-    if (currentStep === 1) {
-        prevBtn.disabled = true;
-    } else if (currentStep === steps.length) {
-        nextBtn.disabled = true;
-    } else {
+    if (currentStep === 1) prevBtn.disabled = true;
+    else if (currentStep === steps.length) nextBtn.disabled = true;
+    else {
         prevBtn.disabled = false;
         nextBtn.disabled = false;
     }
@@ -56,11 +47,8 @@ const handleButtons = () => {
 
 const handleFormPage = () => {
     formPages.forEach(page => {
-        if (currentStep == page.dataset.number) {
-            page.classList.add('active-page');
-        } else {
-            page.classList.remove('active-page');
-        }
+        if (currentStep == page.dataset.number) page.classList.add('active-page');
+        else page.classList.remove('active-page');
     })
 }
 

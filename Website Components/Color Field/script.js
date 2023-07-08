@@ -26,12 +26,8 @@ const createSquares = () => {
 const setColor = square => {
     let h;
 
-    if (range === 360) {
-        h = Math.floor(Math.random() * 360);
-    }
-    else {
-        h = Math.floor(Math.random() * 60) + range;
-    }
+    if (range === 360) h = Math.floor(Math.random() * 360);
+    else h = Math.floor(Math.random() * 60) + range;
 
     const s = sliderValue + '%';
     const l = '50%';
