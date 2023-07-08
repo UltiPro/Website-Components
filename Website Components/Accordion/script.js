@@ -2,7 +2,6 @@ const accordion = document.querySelector('.accordion');
 const accordionBtns = document.querySelectorAll('.accordion-btn');
 
 function openAccordionItems() {
-
     if (this.nextElementSibling.classList.contains('active')) {
         this.nextElementSibling.classList.remove('active');
     } else {
@@ -22,7 +21,6 @@ const clickOutsideAccordion = e => {
         e.target.classList.contains('accordion-info') ||
         e.target.classList.contains('accordion-info-text')
     ) return;
-
     closeAccordionItem();
 }
 
