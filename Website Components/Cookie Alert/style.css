@@ -38,7 +38,7 @@ body {
 	right: 50px;
 	width: 400px;
 	height: 400px;
-	background-image: url('https://lezebre.lu/images/detailed/26/65626-JDM-Cookie-Monster.png');
+	background-image: url('img/Cookie-Monster.png');
 	background-size: cover;
 	content: '';
 }
@@ -64,5 +64,4 @@ body {
 		opacity: 1;
 		transform: translateY(0);
 	}
-
 }
