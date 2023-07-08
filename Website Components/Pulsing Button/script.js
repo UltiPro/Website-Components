@@ -5,6 +5,7 @@ const btnAnimation = e => {
     const insideBtnLeft = e.clientX - e.target.offsetLeft;
 
     const circle = document.createElement('span');
+
     circle.classList.add('circle');
     circle.style.top = insideBtnTop + 'px';
     circle.style.left = insideBtnLeft + 'px';
