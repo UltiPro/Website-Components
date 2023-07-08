@@ -1,6 +1,7 @@
 const box = document.querySelector('.box');
 
 const squares = 357;
+
 let sliderValue = 70;
 let range = 360;
 
