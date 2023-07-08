@@ -12,17 +12,19 @@ const startCounter = entry => {
 				const finalNumber = counter.getAttribute('data-number');
 				const value = parseInt(counter.textContent);
 				const speed = finalNumber / 300;
+
 				if (value < finalNumber) {
 					counter.textContent = `${Math.floor(value + speed)}`;
 					setTimeout(updateCounter, 1);
-				} else {
-					counter.textContent = finalNumber;
 				}
+				else counter.textContent = finalNumber;
 			}
+
 			updateCounter();
 		});
 	}
 }
 
 const observer = new IntersectionObserver(startCounter, options);
+
 observer.observe(counterBox);
