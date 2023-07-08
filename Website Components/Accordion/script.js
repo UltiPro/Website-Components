@@ -21,6 +21,7 @@ const clickOutsideAccordion = e => {
         e.target.classList.contains('accordion-info') ||
         e.target.classList.contains('accordion-info-text')
     ) return;
+
     closeAccordionItem();
 }
 
