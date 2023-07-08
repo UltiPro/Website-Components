@@ -15,11 +15,8 @@ const handleCarousel = () => {
 let startCarousel = setInterval(handleCarousel, carouselSpeed);
 
 const changeImage = () => {
-    if (index > carouselImages.length - 1) {
-        index = 0;
-    } else if (index < 0) {
-        index = carouselImages.length - 1;
-    }
+    if (index > carouselImages.length - 1) index = 0;
+    else if (index < 0) index = carouselImages.length - 1;
 
     sliderBox.style.transform = `translateX(${-index * carouselWidth}px)`
 }

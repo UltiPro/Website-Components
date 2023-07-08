@@ -69,19 +69,19 @@ body {
 }
 
 .spring {
-	background-image: url('https://cdn.pixabay.com/photo/2016/04/12/10/55/blossom-1324088_960_720.jpg');
+	background-image: url('img/Spring.jpg');
 }
 
 .summer {
-	background-image: url('https://cdn.pixabay.com/photo/2013/10/07/18/06/field-192179_960_720.jpg');
+	background-image: url('img/Summer.jpg');
 }
 
 .autumn {
-	background-image: url('https://cdn.pixabay.com/photo/2019/03/31/21/43/the-dark-hedges-4094148_960_720.jpg');
+	background-image: url('img/Autumn.jpg');
 }
 
 .winter {
-	background-image: url('https://cdn.pixabay.com/photo/2018/05/04/07/55/snow-3373432_960_720.jpg');
+	background-image: url('img/Winter.jpg');
 }
 
 .spring::before,

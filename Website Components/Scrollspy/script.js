@@ -4,6 +4,7 @@ const scrollSpySections = document.querySelectorAll('.section');
 const handleScrollSpy = () => {
 	if (document.body.classList.contains('main-page')) {
 		const sections = [];
+
 		scrollSpySections.forEach(section => {
 			if (window.scrollY <= section.offsetTop + section.offsetHeight - 103) {
 				sections.push(section);
