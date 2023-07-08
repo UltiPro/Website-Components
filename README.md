@@ -60,9 +60,9 @@ Simple components.
 
 ![Unfolding Slider preview gif](screenshots/Unfolding-Slider.gif)
 
-### Website Counters
+### Webpage Counters
 
-![Website Counters preview gif](screenshots/Website-Counters.gif)
+![Webpage Counters preview gif](screenshots/Webpage-Counters.gif)
 
 ### Zoom Images
 
